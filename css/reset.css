@@ -1,0 +1,71 @@
+/* Reset de CSS */
+
+/* Box sizing border box por defecto para todos los elementos */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Evitar problemas de legibilidad del texto en IE */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Establecer estilos predeterminados para el cuerpo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Establecer estilos predeterminados para la lista */
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Establecer estilos predeterminados para el enlace */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Establecer estilos predeterminados para los encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Eliminar la decoración del enlace */
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+/* Eliminar la decoración de lista para IE */
+ul, ol {
+    list-style: none;
+}
+
+/* Eliminar el espaciado de lista para IE */
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Eliminar el espaciado de tabla para IE */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
