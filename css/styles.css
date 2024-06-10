@@ -197,8 +197,8 @@ iframe {
 @media only screen and (max-width: 700px) {
 
     iframe {
-        margin: 6px 2px;
-        width: 97%;
+        margin: 6px 1px;
+        width: 98%;
         height: 910px;
         border: 1px solid var(--primary-color);
         
