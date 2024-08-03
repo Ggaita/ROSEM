@@ -188,10 +188,17 @@ section {
 
 iframe {
     margin: 15px;
-    width: 98%;
     height: 910px;
+    width: 98%;
     border: 1px solid var(--primary-color);
     
+}
+
+.iframe2 {
+    margin: 15px;
+    height: 595px;
+    width: 98%;
+    border: 1px solid var(--primary-color);
 }
 
 @media only screen and (max-width: 700px) {
@@ -203,6 +210,13 @@ iframe {
         height: 910px;
         border: 1px solid var(--primary-color);
         
+    }
+
+    .iframe2 {
+        margin: 15px;
+        height: 535px;
+        width: 98%;
+        border: 1px solid var(--primary-color);
     }
 }
 
